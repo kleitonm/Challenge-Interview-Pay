@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -347,6 +347,9 @@
 				Base,
 			);
 			mainGroup = 6AB24DB323EB546D00530BA5;
+			packageReferences = (
+				FB790A832C7818530072B0F2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+			);
 			productRefGroup = 6AB24DBD23EB546D00530BA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -653,6 +656,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB790A832C7818530072B0F2 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 6AB24DB423EB546D00530BA5 /* Project object */;
 }
